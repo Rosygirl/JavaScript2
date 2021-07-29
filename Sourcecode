@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Revision</title>
+</head>
+<body>
+<h1>Revision</h1>
+<p id="me">5+6</p>
+<p id="dew" style="display:none">5+6</p>
+<button type="button" onclick="document.getElementById('me').innerHTML=z">Show Answer</button><br>
+<button type="button" onclick="document.getElementById('me').style.display='none'">Hide Answer</button>
+<button type="button" onclick="document.getElementById('dew').style.display='block'">Show Question</button>
+<button type="button" onclick="document.getElementById('dew').style.display='none'">Hide Question</button>
+<script>
+var x=5;
+var y=6;
+var z=x+y;
+</script>
+</body>
+</html>
+
